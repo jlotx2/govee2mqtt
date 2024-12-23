@@ -849,7 +849,7 @@ pub struct DeviceSettings {
     pub upload_rate: Option<i64>,
     pub battery: Option<i64>,
     /// millisecond timestamp
-    pub time: Option<u64>,
+    pub time: Option<i64>,
     pub wifi_level: Option<i64>,
 
     pub pm25_min: Option<i64>,
